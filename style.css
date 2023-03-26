@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    background-color: aqua;
+    background-color: white;
+}
+.barratop{
+    position: fixed;
+    width: 100%;
 }
 
 .barraNegra {
@@ -85,3 +89,31 @@ nav {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+.zoomImg{
+    margin-top: 3em;
+    display: flex;
+    width: 100%;
+    height: 50em;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.boximg{
+    width: 50em;
+    height: 30em;
+    overflow: hidden;
+    background-position: center;
+}
+.boximg img{
+    width: 100%;
+    height: 100%;
+    transition: all 3s;
+    cursor: pointer;
+}
+.boximg:hover > img{
+    transform: scale(1.2);
+
+}
