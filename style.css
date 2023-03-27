@@ -221,9 +221,3 @@ footer a {
   content: "";
   display: block;
 }
-
-@media (max-width: 767px) {
-  footer {
-    position: static;
-  }
-}
