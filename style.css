@@ -5,6 +5,7 @@
 }
 body{
     background-color: white;
+    min-height: 100vh;
 }
 .barratop{
     position: fixed;
@@ -63,12 +64,14 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
   }
   
   li {
     float: left;
     background-color: white;
     width: 150px;
+    
   }
   
   a {
@@ -100,7 +103,7 @@ nav {
     margin-top: 3em;
     display: flex;
     width: 100%;
-    height: 50em;
+    height: 35em;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -123,4 +126,104 @@ nav {
 .boximg:hover > img{
     transform: scale(1.2);
 
+}
+.showUp{
+  display: flex;
+        align-items: center;
+        height: 40em;
+   
+}
+
+.showUp .text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.showUp .text  {
+  font-size: 24px;
+
+}
+
+.showUp .text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.showUp .image {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+
+}
+
+.showUp .clasicosRb{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;;
+  font-weight: bold;
+}
+.showUp .mouse{
+  display: flex;
+  align-items: end;
+  flex-direction: row-reverse;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  height: 80px;
+}
+.logiTech{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  height: 160px;
+}
+.ahoraIn{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: end;
+ font-family: 'Poppins', sans-serif;
+ font-size: 35px;
+ height: 100px;
+}
+.sinCa{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  font-family: 'Playfair Display', serif;
+  height: 150px;
+}
+
+.content-wrap {
+  padding-bottom: 60px; 
+}
+
+.footer {
+  margin-top: 150px;
+  background-color: black;
+  color: white;
+  height: 80px; 
+  position:static;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.content-wrap::after {
+  content: "";
+  display: block;
+}
+
+@media (max-width: 767px) {
+  footer {
+    position: static;
+  }
 }
