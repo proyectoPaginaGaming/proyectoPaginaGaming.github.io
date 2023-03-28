@@ -170,7 +170,7 @@ nav {
   align-items: end;
   flex-direction: row-reverse;
   font-family: 'Poppins', sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   height: 80px;
 }
 .logiTech{
@@ -179,6 +179,7 @@ nav {
   align-items: center;
   justify-content: center;
   font-family: 'Playfair Display', serif;
+  font-size: 40px;
   height: 160px;
 }
 .ahoraIn{
@@ -186,7 +187,7 @@ nav {
   flex-direction: row-reverse;
   align-items: end;
  font-family: 'Poppins', sans-serif;
- font-size: 35px;
+ font-size: 40px;
  height: 100px;
 }
 .sinCa{
@@ -195,6 +196,7 @@ nav {
   justify-content: end;
   align-items: end;
   font-family: 'Playfair Display', serif;
+  font-size: 40px;
   height: 150px;
 }
 
